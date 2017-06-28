@@ -1,0 +1,23 @@
+{
+  "name": "flashcard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "BasicCard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vichsu416/Flashcard-Generator.git"
+  },
+  "author": "Tzu-Tang Hsu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vichsu416/Flashcard-Generator/issues"
+  },
+  "homepage": "https://github.com/vichsu416/Flashcard-Generator#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "inquirer": "^3.1.1"
+  }
+}

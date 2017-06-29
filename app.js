@@ -4,7 +4,7 @@ var command = process.argv[2];
 
 flashCard();
 
-
+//prompt the user to make basic and cloze flashcard, or show flash card 
 function flashCard() {
     if (command === 'basic'){
         inquirer.prompt([{
@@ -37,7 +37,7 @@ function flashCard() {
         console.log('Or enter "show" to see the flashcard you have made so far')
     }
 }
-
+//save basic flashcard
 function BasicFlashcard(front, back){
     this.front = front;
     this.back = back;
@@ -47,7 +47,7 @@ function BasicFlashcard(front, back){
         });
     };
 }
-
+//save cloze flashcard
 function ClozeFlashcard(text, cloze){
     this.text = text;
     this.cloze = cloze;
